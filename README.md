@@ -109,5 +109,5 @@ taiga3/
 
 ## 鸣谢 / Credits
 
-- 作者：**Zkaface, Chefe, Team Threshold, whfwtf**
+- 作者：**Zkaface, Chefe, Team Threshold**
 - 基于 Tinkers' Construct 生态，感谢 SlimeKnights 及各联动模组作者。
