@@ -1,0 +1,11 @@
+{
+  "color": "FF9B7A9E",
+  "generator": {
+    "supported_stats": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:repair_kit"
+    ]
+  }
+}

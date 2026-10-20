@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:ovium_block"
+  },
+  "result": {
+    "fluid": "taiga:molten_ovium",
+    "amount": 1296
+  },
+  "temperature": 300,
+  "time": 60
+}

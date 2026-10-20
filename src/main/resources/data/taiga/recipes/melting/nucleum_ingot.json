@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:nucleum_ingot"
+  },
+  "result": {
+    "fluid": "taiga:molten_nucleum",
+    "amount": 144
+  },
+  "temperature": 1450,
+  "time": 60
+}

@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 35,
+  "fluid": "taiga:molten_vibranium",
+  "fluidPerUnit": 144,
+  "textColor": "#A0B5BB",
+  "temperature": 1800
+}

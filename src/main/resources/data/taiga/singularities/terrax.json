@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.terrax",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:terrax_ingot"
+  },
+  "name": "taiga:terrax",
+  "overlayColor": "bdb6b2",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "877b74"
+}

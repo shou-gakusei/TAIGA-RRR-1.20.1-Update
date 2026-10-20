@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 26,
+  "fluid": "taiga:molten_proxii",
+  "fluidPerUnit": 144,
+  "textColor": "#8DAD9A",
+  "temperature": 1450
+}

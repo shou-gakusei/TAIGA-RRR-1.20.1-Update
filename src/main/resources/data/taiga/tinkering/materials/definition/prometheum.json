@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 25,
+  "fluid": "taiga:molten_prometheum",
+  "fluidPerUnit": 144,
+  "textColor": "#251D31",
+  "temperature": 1000
+}

@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_uru",
+      "amount": 3
+    },
+    {
+      "fluid": "taiga:molten_valyrium",
+      "amount": 3
+    },
+    {
+      "fluid": "taiga:molten_abyssum",
+      "amount": 1
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_yrdeen",
+    "amount": 3
+  }
+}

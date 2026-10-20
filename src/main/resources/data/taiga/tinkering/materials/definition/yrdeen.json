@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 37,
+  "fluid": "taiga:molten_yrdeen",
+  "fluidPerUnit": 144,
+  "textColor": "#632742",
+  "temperature": 1450
+}

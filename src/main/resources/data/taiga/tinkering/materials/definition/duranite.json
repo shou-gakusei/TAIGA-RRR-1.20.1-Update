@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 7,
+  "fluid": "taiga:molten_duranite",
+  "fluidPerUnit": 144,
+  "textColor": "#536B71",
+  "temperature": 1450
+}

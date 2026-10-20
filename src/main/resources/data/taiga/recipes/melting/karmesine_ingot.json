@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:karmesine_ingot"
+  },
+  "result": {
+    "fluid": "taiga:molten_karmesine",
+    "amount": 144
+  },
+  "temperature": 300,
+  "time": 60
+}

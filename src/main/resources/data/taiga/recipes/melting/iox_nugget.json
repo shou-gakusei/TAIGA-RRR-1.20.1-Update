@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:iox_nugget"
+  },
+  "result": {
+    "fluid": "taiga:molten_iox",
+    "amount": 16
+  },
+  "temperature": 300,
+  "time": 60
+}

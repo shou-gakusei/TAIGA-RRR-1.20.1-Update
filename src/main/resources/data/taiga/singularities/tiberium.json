@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.tiberium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:tiberium_ingot"
+  },
+  "name": "taiga:tiberium",
+  "overlayColor": "d1e572",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "add000"
+}

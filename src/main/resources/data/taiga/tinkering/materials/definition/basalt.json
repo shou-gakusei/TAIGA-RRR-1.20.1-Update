@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 1,
+  "sortOrder": 5,
+  "fluid": "taiga:molten_basalt",
+  "fluidPerUnit": 144,
+  "textColor": "#F7F3DF",
+  "temperature": 1000
+}

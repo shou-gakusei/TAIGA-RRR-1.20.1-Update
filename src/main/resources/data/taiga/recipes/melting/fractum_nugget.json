@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:fractum_nugget"
+  },
+  "result": {
+    "fluid": "taiga:molten_fractum",
+    "amount": 16
+  },
+  "temperature": 300,
+  "time": 60
+}

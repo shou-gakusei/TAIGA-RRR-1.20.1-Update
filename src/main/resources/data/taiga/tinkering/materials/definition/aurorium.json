@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 4,
+  "fluid": "taiga:molten_aurorium",
+  "fluidPerUnit": 144,
+  "textColor": "#735447",
+  "temperature": 1000
+}

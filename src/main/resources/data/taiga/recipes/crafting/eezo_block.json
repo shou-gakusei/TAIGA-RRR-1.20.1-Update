@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "taiga:eezo_ingot"
+    }
+  },
+  "result": {
+    "item": "taiga:eezo_block"
+  }
+}

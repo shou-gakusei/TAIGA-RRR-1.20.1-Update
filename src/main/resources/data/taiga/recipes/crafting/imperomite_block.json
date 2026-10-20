@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "taiga:imperomite_ingot"
+    }
+  },
+  "result": {
+    "item": "taiga:imperomite_block"
+  }
+}

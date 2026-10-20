@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.triberium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:triberium_ingot"
+  },
+  "name": "taiga:triberium",
+  "overlayColor": "92bc83",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "39861e"
+}

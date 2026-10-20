@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_palladium",
+      "amount": 3
+    },
+    {
+      "fluid": "taiga:molten_duranite",
+      "amount": 1
+    },
+    {
+      "fluid": "taiga:molten_osram",
+      "amount": 1
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_niob",
+    "amount": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:obsidiorite_ingot"
+  },
+  "result": {
+    "fluid": "taiga:molten_obsidiorite",
+    "amount": 144
+  },
+  "temperature": 300,
+  "time": 60
+}

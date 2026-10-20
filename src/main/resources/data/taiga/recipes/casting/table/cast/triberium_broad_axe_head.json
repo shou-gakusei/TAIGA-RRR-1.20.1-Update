@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:broad_axe_head_cast"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "fluid": "taiga:molten_triberium",
+    "amount": 1152
+  },
+  "result": {
+    "item": "tconstruct:broad_axe_head",
+    "nbt": {
+      "Material": "taiga:triberium"
+    }
+  },
+  "cooling_time": 45
+}

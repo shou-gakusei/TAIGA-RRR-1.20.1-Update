@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.basalt",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:basalt_ingot"
+  },
+  "name": "taiga:basalt",
+  "overlayColor": "faf8ed",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "f7f3df"
+}

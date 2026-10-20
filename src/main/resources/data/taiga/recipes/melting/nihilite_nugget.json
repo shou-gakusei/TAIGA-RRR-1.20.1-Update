@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:nihilite_nugget"
+  },
+  "result": {
+    "fluid": "taiga:molten_nihilite",
+    "amount": 16
+  },
+  "temperature": 1800,
+  "time": 60
+}

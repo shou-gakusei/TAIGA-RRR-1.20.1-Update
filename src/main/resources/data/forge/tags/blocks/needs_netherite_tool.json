@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "taiga:abyssum_ore",
+    "taiga:aurorium_ore",
+    "taiga:eezo_ore"
+  ]
+}

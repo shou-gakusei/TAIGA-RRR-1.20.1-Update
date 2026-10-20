@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taiga:raw_vibranium_block"
+    }
+  ],
+  "result": {
+    "item": "taiga:raw_vibranium",
+    "count": 9
+  }
+}

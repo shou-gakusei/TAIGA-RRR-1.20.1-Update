@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 3,
+  "fluid": "taiga:molten_astrium",
+  "fluidPerUnit": 144,
+  "textColor": "#752E4D",
+  "temperature": 1000
+}

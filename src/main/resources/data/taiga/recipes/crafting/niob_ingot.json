@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "taiga:niob_nugget"
+    }
+  },
+  "result": {
+    "item": "taiga:niob_ingot"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.abyssum",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:abyssum_ingot"
+  },
+  "name": "taiga:abyssum",
+  "overlayColor": "7ba4a6",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "105b5e"
+}

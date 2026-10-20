@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.meteorite",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:meteorite_ingot"
+  },
+  "name": "taiga:meteorite",
+  "overlayColor": "8a958d",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "2c3f31"
+}

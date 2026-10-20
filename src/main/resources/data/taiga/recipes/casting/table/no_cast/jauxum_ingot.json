@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:ingot_cast"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "fluid": "taiga:molten_jauxum",
+    "amount": 144
+  },
+  "result": {
+    "item": "taiga:jauxum_ingot"
+  },
+  "cooling_time": 45
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:large_plate_cast"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "fluid": "taiga:molten_ignitz",
+    "amount": 1152
+  },
+  "result": {
+    "item": "tconstruct:large_plate",
+    "nbt": {
+      "Material": "taiga:ignitz"
+    }
+  },
+  "cooling_time": 45
+}

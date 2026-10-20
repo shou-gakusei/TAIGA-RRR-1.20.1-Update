@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.prometheum",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:prometheum_ingot"
+  },
+  "name": "taiga:prometheum",
+  "overlayColor": "87828d",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "251d31"
+}

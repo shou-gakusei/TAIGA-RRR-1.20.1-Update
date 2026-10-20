@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 23,
+  "fluid": "taiga:molten_ovium",
+  "fluidPerUnit": 144,
+  "textColor": "#413E66",
+  "temperature": 1000
+}

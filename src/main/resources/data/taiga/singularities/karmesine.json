@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.karmesine",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:karmesine_ingot"
+  },
+  "name": "taiga:karmesine",
+  "overlayColor": "e39595",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "cd3f40"
+}

@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.tese_leshi.nether_essence",
+  "enabled": true,
+  "ingredient": {
+    "item": "tese_leshi:nether_essence_ingot"
+  },
+  "name": "tese_leshi:nether_essence",
+  "overlayColor": "e0e0e0",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "8c8c8c"
+}

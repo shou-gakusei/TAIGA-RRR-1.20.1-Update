@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 19,
+  "fluid": "taiga:molten_niob",
+  "fluidPerUnit": 144,
+  "textColor": "#3C4F60",
+  "temperature": 1450
+}

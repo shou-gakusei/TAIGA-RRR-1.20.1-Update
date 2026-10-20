@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 2,
+  "fluid": "taiga:molten_adamant",
+  "fluidPerUnit": 144,
+  "textColor": "#CC72CB",
+  "temperature": 1000
+}

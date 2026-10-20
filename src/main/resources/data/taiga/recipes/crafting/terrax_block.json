@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "taiga:terrax_ingot"
+    }
+  },
+  "result": {
+    "item": "taiga:terrax_block"
+  }
+}

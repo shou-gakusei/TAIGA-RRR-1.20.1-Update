@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 2,
+  "sortOrder": 30,
+  "fluid": "taiga:molten_tiberium",
+  "fluidPerUnit": 144,
+  "textColor": "#ADD000",
+  "temperature": 1000
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_terrax",
+      "amount": 3
+    },
+    {
+      "fluid": "taiga:molten_aurorium",
+      "amount": 2
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_astrium",
+    "amount": 2
+  }
+}

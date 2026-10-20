@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.adamant",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:adamant_ingot"
+  },
+  "name": "taiga:adamant",
+  "overlayColor": "e2b1e2",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "cc72cb"
+}

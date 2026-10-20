@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "taiga:raw_meteorite_block"
+  },
+  "result": "taiga:meteorite_cobble_block",
+  "experience": 0.7,
+  "cookingtime": 200
+}

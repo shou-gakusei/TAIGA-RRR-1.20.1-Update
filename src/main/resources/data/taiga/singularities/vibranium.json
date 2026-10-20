@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.vibranium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:vibranium_ingot"
+  },
+  "name": "taiga:vibranium",
+  "overlayColor": "cad6d9",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "a0b5bb"
+}

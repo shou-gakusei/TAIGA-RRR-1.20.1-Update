@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.dilithium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:dilithium_ingot"
+  },
+  "name": "taiga:dilithium",
+  "overlayColor": "a7bebb",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "608a84"
+}

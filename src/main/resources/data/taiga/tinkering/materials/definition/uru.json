@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 33,
+  "fluid": "taiga:molten_uru",
+  "fluidPerUnit": 144,
+  "textColor": "#9B7A9E",
+  "temperature": 1450
+}

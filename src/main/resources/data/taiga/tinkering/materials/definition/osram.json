@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 22,
+  "fluid": "taiga:molten_osram",
+  "fluidPerUnit": 144,
+  "textColor": "#AE8062",
+  "temperature": 1000
+}

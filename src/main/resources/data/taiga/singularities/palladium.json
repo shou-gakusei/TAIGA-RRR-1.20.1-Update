@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.palladium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:palladium_ingot"
+  },
+  "name": "taiga:palladium",
+  "overlayColor": "c9a386",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "9e5924"
+}

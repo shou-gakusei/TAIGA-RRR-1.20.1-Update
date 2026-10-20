@@ -1,0 +1,14 @@
+{
+  "color": "FF11FF",
+  "max_level": 1,
+  "conditions": [
+    {
+      "type": "tconstruct:tool_definition",
+      "definition": "tconstruct:modifiable"
+    }
+  ],
+  "text": {
+    "title": "Berserker",
+    "description": "狂战士-更高数值，更低耐久"
+  }
+}

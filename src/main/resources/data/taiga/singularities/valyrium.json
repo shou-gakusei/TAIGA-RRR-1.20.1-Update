@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.valyrium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:valyrium_ingot"
+  },
+  "name": "taiga:valyrium",
+  "overlayColor": "b98e81",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "81331b"
+}

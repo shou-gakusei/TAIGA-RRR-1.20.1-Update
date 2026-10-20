@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 8,
+  "fluid": "taiga:molten_dyonite",
+  "fluidPerUnit": 144,
+  "textColor": "#D49D34",
+  "temperature": 1000
+}

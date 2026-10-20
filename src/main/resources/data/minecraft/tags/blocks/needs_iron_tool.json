@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "taiga:dilithium_ore",
+    "taiga:jauxum_ore",
+    "taiga:karmesine_ore",
+    "taiga:ovium_ore"
+  ]
+}

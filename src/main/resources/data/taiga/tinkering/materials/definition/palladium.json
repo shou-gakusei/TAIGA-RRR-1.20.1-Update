@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 24,
+  "fluid": "taiga:molten_palladium",
+  "fluidPerUnit": 144,
+  "textColor": "#9E5924",
+  "temperature": 1000
+}

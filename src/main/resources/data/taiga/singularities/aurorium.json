@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.aurorium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:aurorium_ingot"
+  },
+  "name": "taiga:aurorium",
+  "overlayColor": "b2a099",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "735447"
+}

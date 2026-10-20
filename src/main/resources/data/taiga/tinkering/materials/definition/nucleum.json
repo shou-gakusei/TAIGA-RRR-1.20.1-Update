@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 20,
+  "fluid": "taiga:molten_nucleum",
+  "fluidPerUnit": 144,
+  "textColor": "#CCE239",
+  "temperature": 1450
+}

@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.seismum",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:seismum_ingot"
+  },
+  "name": "taiga:seismum",
+  "overlayColor": "e2cbc2",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "cca291"
+}

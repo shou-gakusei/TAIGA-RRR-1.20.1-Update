@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "taiga:ovium_nugget"
+    }
+  },
+  "result": {
+    "item": "taiga:ovium_ingot"
+  }
+}

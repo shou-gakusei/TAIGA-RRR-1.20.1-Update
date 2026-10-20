@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 18,
+  "fluid": "taiga:molten_nihilite",
+  "fluidPerUnit": 144,
+  "textColor": "#31215A",
+  "temperature": 1800
+}

@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 21,
+  "fluid": "taiga:molten_obsidiorite",
+  "fluidPerUnit": 144,
+  "textColor": "#1B3A42",
+  "temperature": 1000
+}

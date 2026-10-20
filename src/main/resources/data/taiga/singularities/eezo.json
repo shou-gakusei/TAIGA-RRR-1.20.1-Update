@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.eezo",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:eezo_ingot"
+  },
+  "name": "taiga:eezo",
+  "overlayColor": "95a3aa",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "405865"
+}

@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 27,
+  "fluid": "taiga:molten_seismum",
+  "fluidPerUnit": 144,
+  "textColor": "#CCA291",
+  "temperature": 1000
+}

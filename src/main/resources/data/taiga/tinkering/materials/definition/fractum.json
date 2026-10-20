@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 10,
+  "fluid": "taiga:molten_fractum",
+  "fluidPerUnit": 144,
+  "textColor": "#8F8659",
+  "temperature": 1000
+}

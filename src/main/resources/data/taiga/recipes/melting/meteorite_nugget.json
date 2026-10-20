@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:meteorite_nugget"
+  },
+  "result": {
+    "fluid": "taiga:molten_meteorite",
+    "amount": 16
+  },
+  "temperature": 300,
+  "time": 60
+}

@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.duranite",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:duranite_ingot"
+  },
+  "name": "taiga:duranite",
+  "overlayColor": "a0adb0",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "536b71"
+}

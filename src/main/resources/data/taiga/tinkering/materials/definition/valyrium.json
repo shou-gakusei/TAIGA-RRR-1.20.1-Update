@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 34,
+  "fluid": "taiga:molten_valyrium",
+  "fluidPerUnit": 144,
+  "textColor": "#81331B",
+  "temperature": 1800
+}

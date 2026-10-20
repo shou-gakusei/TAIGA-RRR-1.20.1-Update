@@ -1,0 +1,14 @@
+{
+  "color": "00FF00",
+  "max_level": 1,
+  "conditions": [
+    {
+      "type": "tconstruct:tool_definition",
+      "definition": "tconstruct:modifiable"
+    }
+  ],
+  "text": {
+    "title": "Unstable",
+    "description": "不稳定就是不稳定"
+  }
+}

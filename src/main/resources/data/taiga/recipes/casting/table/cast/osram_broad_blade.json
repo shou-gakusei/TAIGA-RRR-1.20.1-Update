@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:broad_blade_cast"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "fluid": "taiga:molten_osram",
+    "amount": 1152
+  },
+  "result": {
+    "item": "tconstruct:broad_blade",
+    "nbt": {
+      "Material": "taiga:osram"
+    }
+  },
+  "cooling_time": 45
+}

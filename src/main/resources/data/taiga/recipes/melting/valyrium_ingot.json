@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:valyrium_ingot"
+  },
+  "result": {
+    "fluid": "taiga:molten_valyrium",
+    "amount": 144
+  },
+  "temperature": 1800,
+  "time": 60
+}

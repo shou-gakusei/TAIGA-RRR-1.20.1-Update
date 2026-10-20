@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.fractum",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:fractum_ingot"
+  },
+  "name": "taiga:fractum",
+  "overlayColor": "c1bca3",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "8f8659"
+}

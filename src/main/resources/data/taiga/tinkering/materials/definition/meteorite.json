@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 17,
+  "fluid": "taiga:molten_meteorite",
+  "fluidPerUnit": 144,
+  "textColor": "#2C3F31",
+  "temperature": 1000
+}

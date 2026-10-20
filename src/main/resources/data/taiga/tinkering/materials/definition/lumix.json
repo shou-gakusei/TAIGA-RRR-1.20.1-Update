@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 16,
+  "fluid": "taiga:molten_lumix",
+  "fluidPerUnit": 144,
+  "textColor": "#9B8772",
+  "temperature": 1000
+}

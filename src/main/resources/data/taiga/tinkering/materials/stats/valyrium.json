@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "tconstruct:head": {
+      "durability": 750,
+      "miningSpeed": 6.5,
+      "mining_tier": "moreharvestinglevel:level_6",
+      "melee_attack": 6.5
+    },
+    "tconstruct:handle": {
+      "durability": -0.15000000000000002,
+      "mining_speed": -0.15000000000000002,
+      "melee_damage": -0.15000000000000002,
+      "melee_speed": -0.15000000000000002
+    },
+    "tconstruct:binding": {}
+  }
+}

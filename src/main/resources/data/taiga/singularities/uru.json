@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.uru",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:uru_ingot"
+  },
+  "name": "taiga:uru",
+  "overlayColor": "c8b5c9",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "9b7a9e"
+}

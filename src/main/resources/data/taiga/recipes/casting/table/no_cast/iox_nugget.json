@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:nugget_cast"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "fluid": "taiga:molten_iox",
+    "amount": 16
+  },
+  "result": {
+    "item": "taiga:iox_nugget"
+  },
+  "cooling_time": 17
+}

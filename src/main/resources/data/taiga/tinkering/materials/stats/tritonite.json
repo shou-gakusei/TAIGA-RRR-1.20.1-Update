@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "tconstruct:head": {
+      "durability": 650,
+      "miningSpeed": 6.5,
+      "mining_tier": "minecraft:netherite",
+      "melee_attack": 6.5
+    },
+    "tconstruct:handle": {
+      "durability": 0.3500000000000001,
+      "mining_speed": 0.3500000000000001,
+      "melee_damage": 0.3500000000000001,
+      "melee_speed": 0.3500000000000001
+    },
+    "tconstruct:binding": {}
+  }
+}

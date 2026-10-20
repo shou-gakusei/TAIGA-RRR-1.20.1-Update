@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.dyonite",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:dyonite_ingot"
+  },
+  "name": "taiga:dyonite",
+  "overlayColor": "e7c98f",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "d49d34"
+}

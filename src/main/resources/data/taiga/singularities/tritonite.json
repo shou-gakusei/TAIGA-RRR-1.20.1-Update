@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.tritonite",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:tritonite_ingot"
+  },
+  "name": "taiga:tritonite",
+  "overlayColor": "a3f9d0",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "59f5ab"
+}

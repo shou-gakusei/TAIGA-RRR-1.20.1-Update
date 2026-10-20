@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "taiga:raw_aurorium"
+    }
+  },
+  "result": {
+    "item": "taiga:raw_aurorium_block"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:tool_handle_cast"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "fluid": "taiga:molten_basalt",
+    "amount": 144
+  },
+  "result": {
+    "item": "tconstruct:tool_handle",
+    "nbt": {
+      "Material": "taiga:basalt"
+    }
+  },
+  "cooling_time": 45
+}

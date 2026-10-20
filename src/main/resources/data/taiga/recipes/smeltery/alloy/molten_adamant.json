@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_vibranium",
+      "amount": 1
+    },
+    {
+      "fluid": "taiga:molten_nucleum",
+      "amount": 1
+    },
+    {
+      "fluid": "taiga:molten_iox",
+      "amount": 3
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_adamant",
+    "amount": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:adamant_ingot"
+  },
+  "result": {
+    "fluid": "taiga:molten_adamant",
+    "amount": 144
+  },
+  "temperature": 300,
+  "time": 60
+}

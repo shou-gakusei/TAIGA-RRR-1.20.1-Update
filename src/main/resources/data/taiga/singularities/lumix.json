@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.lumix",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:lumix_ingot"
+  },
+  "name": "taiga:lumix",
+  "overlayColor": "c8bdb1",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "9b8772"
+}

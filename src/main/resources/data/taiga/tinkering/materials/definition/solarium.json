@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 28,
+  "fluid": "taiga:molten_solarium",
+  "fluidPerUnit": 144,
+  "textColor": "#DDD857",
+  "temperature": 1800
+}

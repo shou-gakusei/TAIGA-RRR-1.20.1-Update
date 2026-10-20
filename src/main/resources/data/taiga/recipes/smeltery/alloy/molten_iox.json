@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_eezo",
+      "amount": 2
+    },
+    {
+      "fluid": "taiga:molten_abyssum",
+      "amount": 2
+    },
+    {
+      "fluid": "taiga:molten_osram",
+      "amount": 2
+    },
+    {
+      "fluid": "taiga:molten_obsidiorite",
+      "amount": 9
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_iox",
+    "amount": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:seismum_nugget"
+  },
+  "result": {
+    "fluid": "taiga:molten_seismum",
+    "amount": 16
+  },
+  "temperature": 300,
+  "time": 60
+}

@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 12,
+  "fluid": "taiga:molten_imperomite",
+  "fluidPerUnit": 144,
+  "textColor": "#68C382",
+  "temperature": 1000
+}

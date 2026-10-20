@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 2,
+  "sortOrder": 36,
+  "fluid": "taiga:molten_violium",
+  "fluidPerUnit": 144,
+  "textColor": "#6D6784",
+  "temperature": 1000
+}

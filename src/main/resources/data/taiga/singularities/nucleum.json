@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.nucleum",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:nucleum_ingot"
+  },
+  "name": "taiga:nucleum",
+  "overlayColor": "e2ef92",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "cce239"
+}

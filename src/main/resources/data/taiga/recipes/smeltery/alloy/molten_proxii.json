@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_prometheum",
+      "amount": 3
+    },
+    {
+      "fluid": "taiga:molten_palladium",
+      "amount": 1
+    },
+    {
+      "fluid": "taiga:molten_eezo",
+      "amount": 1
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_proxii",
+    "amount": 3
+  }
+}

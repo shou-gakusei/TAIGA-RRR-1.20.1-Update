@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:terrax_nugget"
+  },
+  "result": {
+    "fluid": "taiga:molten_terrax",
+    "amount": 16
+  },
+  "temperature": 300,
+  "time": 60
+}

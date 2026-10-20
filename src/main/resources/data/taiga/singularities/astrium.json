@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.astrium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:astrium_ingot"
+  },
+  "name": "taiga:astrium",
+  "overlayColor": "b38c9d",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "752e4d"
+}

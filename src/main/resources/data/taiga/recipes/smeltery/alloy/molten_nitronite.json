@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:blaze_halwa",
+      "amount": 6
+    },
+    {
+      "fluid": "taiga:molten_osram",
+      "amount": 1
+    },
+    {
+      "fluid": "laowu:hissing_gas",
+      "amount": 1
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_nitronite",
+    "amount": 6
+  }
+}

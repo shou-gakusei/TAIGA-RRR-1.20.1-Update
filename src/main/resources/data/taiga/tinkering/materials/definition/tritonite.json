@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 32,
+  "fluid": "taiga:molten_tritonite",
+  "fluidPerUnit": 144,
+  "textColor": "#59F5AB",
+  "temperature": 1000
+}

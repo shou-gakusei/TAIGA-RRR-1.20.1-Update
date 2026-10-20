@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 13,
+  "fluid": "taiga:molten_iox",
+  "fluidPerUnit": 144,
+  "textColor": "#55AA55",
+  "temperature": 1000
+}

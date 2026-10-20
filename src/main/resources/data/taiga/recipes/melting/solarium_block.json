@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:solarium_block"
+  },
+  "result": {
+    "fluid": "taiga:molten_solarium",
+    "amount": 1296
+  },
+  "temperature": 1800,
+  "time": 60
+}

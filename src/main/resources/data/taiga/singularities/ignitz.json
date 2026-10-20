@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.ignitz",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:ignitz_ingot"
+  },
+  "name": "taiga:ignitz",
+  "overlayColor": "c07e89",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "8e162a"
+}

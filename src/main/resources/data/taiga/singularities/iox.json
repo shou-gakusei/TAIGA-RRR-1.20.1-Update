@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.iox",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:iox_ingot"
+  },
+  "name": "taiga:iox",
+  "overlayColor": "a1d0a1",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "55aa55"
+}

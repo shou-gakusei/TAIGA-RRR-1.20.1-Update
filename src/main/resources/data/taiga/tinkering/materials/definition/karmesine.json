@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 15,
+  "fluid": "taiga:molten_karmesine",
+  "fluidPerUnit": 144,
+  "textColor": "#CD3F40",
+  "temperature": 1000
+}

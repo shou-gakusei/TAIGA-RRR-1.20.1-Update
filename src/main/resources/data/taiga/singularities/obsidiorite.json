@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.obsidiorite",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:obsidiorite_ingot"
+  },
+  "name": "taiga:obsidiorite",
+  "overlayColor": "819297",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "1b3a42"
+}

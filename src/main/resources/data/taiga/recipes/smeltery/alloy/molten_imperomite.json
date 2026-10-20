@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_duranite",
+      "amount": 3
+    },
+    {
+      "fluid": "taiga:molten_prometheum",
+      "amount": 1
+    },
+    {
+      "fluid": "taiga:molten_abyssum",
+      "amount": 1
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_imperomite",
+    "amount": 2
+  }
+}

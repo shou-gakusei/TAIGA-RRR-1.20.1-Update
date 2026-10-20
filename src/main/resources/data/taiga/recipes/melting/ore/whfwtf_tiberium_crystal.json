@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:tiberium_crystal"
+  },
+  "result": {
+    "fluid": "taiga:molten_tiberium",
+    "amount": 288
+  },
+  "temperature": 300,
+  "time": 60
+}

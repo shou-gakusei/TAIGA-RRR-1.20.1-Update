@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.proxii",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:proxii_ingot"
+  },
+  "name": "taiga:proxii",
+  "overlayColor": "c0d1c7",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "8dad9a"
+}

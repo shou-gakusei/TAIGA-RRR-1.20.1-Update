@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:prometheum_block"
+  },
+  "result": {
+    "fluid": "taiga:molten_prometheum",
+    "amount": 1296
+  },
+  "temperature": 300,
+  "time": 60
+}

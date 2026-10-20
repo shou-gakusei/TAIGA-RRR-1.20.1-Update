@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_uru",
+      "amount": 2
+    },
+    {
+      "fluid": "taiga:molten_valyrium",
+      "amount": 2
+    },
+    {
+      "fluid": "taiga:molten_nucleum",
+      "amount": 1
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_solarium",
+    "amount": 2
+  }
+}

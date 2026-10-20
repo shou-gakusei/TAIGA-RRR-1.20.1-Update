@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:basalt_deltas",
+    "minecraft:soul_sand_valley",
+    "minecraft:warped_forest",
+    "minecraft:crimson_forest",
+    "minecraft:nether_wastes"
+  ],
+  "features": "taiga:prometheum_placed",
+  "step": "underground_ores"
+}

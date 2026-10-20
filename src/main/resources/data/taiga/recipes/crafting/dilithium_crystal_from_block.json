@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "taiga:dilithium_crystal_block"
+    }
+  ],
+  "result": {
+    "item": "taiga:dilithium_crystal",
+    "count": 9
+  }
+}

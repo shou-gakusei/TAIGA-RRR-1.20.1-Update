@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_solarium",
+      "amount": 1
+    },
+    {
+      "fluid": "taiga:molten_vibranium",
+      "amount": 1
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_nihilite",
+    "amount": 1
+  }
+}

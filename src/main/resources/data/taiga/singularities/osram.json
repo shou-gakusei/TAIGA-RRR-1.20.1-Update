@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.osram",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:osram_ingot"
+  },
+  "name": "taiga:osram",
+  "overlayColor": "d2b9a8",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "ae8062"
+}

@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 9,
+  "fluid": "taiga:molten_eezo",
+  "fluidPerUnit": 144,
+  "textColor": "#405865",
+  "temperature": 1000
+}

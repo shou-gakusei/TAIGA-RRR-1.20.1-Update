@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 29,
+  "fluid": "taiga:molten_terrax",
+  "fluidPerUnit": 144,
+  "textColor": "#877B74",
+  "temperature": 1000
+}

@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.solarium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:solarium_ingot"
+  },
+  "name": "taiga:solarium",
+  "overlayColor": "ece9a2",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "ddd857"
+}

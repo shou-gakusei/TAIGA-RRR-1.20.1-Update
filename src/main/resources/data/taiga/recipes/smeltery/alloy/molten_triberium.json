@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_tiberium",
+      "amount": 5
+    },
+    {
+      "fluid": "taiga:molten_basalt",
+      "amount": 1
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_triberium",
+    "amount": 5
+  }
+}

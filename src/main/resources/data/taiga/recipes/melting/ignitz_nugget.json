@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:ignitz_nugget"
+  },
+  "result": {
+    "fluid": "taiga:molten_ignitz",
+    "amount": 16
+  },
+  "temperature": 300,
+  "time": 60
+}

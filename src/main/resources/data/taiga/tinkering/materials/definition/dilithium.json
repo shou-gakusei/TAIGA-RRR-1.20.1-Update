@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 2,
+  "sortOrder": 6,
+  "fluid": "taiga:molten_dilithium",
+  "fluidPerUnit": 144,
+  "textColor": "#608A84",
+  "temperature": 1000
+}

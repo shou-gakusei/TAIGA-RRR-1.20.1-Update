@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_aurorium",
+      "amount": 3
+    },
+    {
+      "fluid": "taiga:molten_obsidiorite",
+      "amount": 2
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_violium",
+    "amount": 2
+  }
+}

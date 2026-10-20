@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "temperature": 800,
+  "inputs": [
+    {
+      "fluid": "taiga:molten_obsidiorite",
+      "amount": 2
+    },
+    {
+      "fluid": "taiga:molten_terrax",
+      "amount": 2
+    },
+    {
+      "fluid": "taiga:molten_osram",
+      "amount": 1
+    }
+  ],
+  "result": {
+    "fluid": "taiga:molten_ignitz",
+    "amount": 2
+  }
+}

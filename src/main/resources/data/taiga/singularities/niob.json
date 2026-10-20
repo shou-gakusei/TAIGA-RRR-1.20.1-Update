@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.niob",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:niob_ingot"
+  },
+  "name": "taiga:niob",
+  "overlayColor": "939ea7",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "3c4f60"
+}

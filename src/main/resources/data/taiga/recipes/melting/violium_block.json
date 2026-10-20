@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:violium_block"
+  },
+  "result": {
+    "fluid": "taiga:molten_violium",
+    "amount": 1296
+  },
+  "temperature": 300,
+  "time": 60
+}

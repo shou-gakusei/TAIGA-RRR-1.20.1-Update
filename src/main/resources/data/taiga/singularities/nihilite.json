@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.nihilite",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:nihilite_ingot"
+  },
+  "name": "taiga:nihilite",
+  "overlayColor": "8d84a4",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "31215a"
+}

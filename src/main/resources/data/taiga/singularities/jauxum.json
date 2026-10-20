@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.jauxum",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:jauxum_ingot"
+  },
+  "name": "taiga:jauxum",
+  "overlayColor": "a7bebb",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "608a84"
+}

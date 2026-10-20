@@ -1,0 +1,9 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 11,
+  "fluid": "taiga:molten_ignitz",
+  "fluidPerUnit": 144,
+  "textColor": "#8E162A",
+  "temperature": 1000
+}

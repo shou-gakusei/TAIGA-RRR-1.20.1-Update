@@ -1,0 +1,14 @@
+{
+  "color": "9933FF",
+  "max_level": 1,
+  "conditions": [
+    {
+      "type": "tconstruct:tool_definition",
+      "definition": "tconstruct:modifiable"
+    }
+  ],
+  "text": {
+    "title": "Soul Eater",
+    "description": "击杀实体叠加额外攻击力"
+  }
+}

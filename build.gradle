@@ -1,0 +1,165 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'net.minecraftforge.gradle' version '6.0.+'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = 'taiga3'
+}
+
+java {
+    // 本机只有 JDK 21（D:\other\pcl\jdk-21），不声明 toolchain，直接编译为 Java 17 字节码
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+minecraft {
+    mappings channel: mapping_channel, version: mapping_version
+    copyIdeResources = true
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'info'
+            args '--nogui'
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run-data')
+            args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    maven {
+        name = "SlimeKnights maven (Mantle/TConstruct)"
+        url = "https://dvs1.progwml6.com/files/maven"
+    }
+    maven { url 'https://maven.aliyun.com/repository/public' }
+    mavenCentral()
+    flatDir {
+        dir 'libs'
+    }
+    // 联动测试依赖仓库（Create 生态 / Farmer's Delight / Curios / JEI 等）
+    maven { url 'https://maven.createmod.net' }
+    maven { url 'https://maven.ithundxr.dev/mirror' }
+    maven { url 'https://maven.tterrag.com' }
+    maven { url 'https://api.modrinth.com/maven' }
+    maven { url 'https://maven.blamejared.com' }
+    maven { url 'https://maven.theillusivec4.top/' }
+    maven { url 'https://modmaven.dev' }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+    // ===== taiga 自身依赖（本地预编译 jar，flatDir + fg.deobf 去混淆）=====
+    implementation fg.deobf("local:Mantle:1.20.1-1.11.79")
+    implementation fg.deobf("local:TConstruct:1.20.1-3.10.2.92")
+
+    // ===== 联动测试依赖（全量测试用，运行时加载，本地预编译 jar）=====
+    // Create 生态（与联动 mod areca-delight / Create-Meowchanics 编译版本 6.0.8 对齐）
+    implementation fg.deobf("local:create:1.20.1")
+    implementation fg.deobf("local:Ponder-Forge-1.20.1:1.0.91")
+    runtimeOnly fg.deobf("local:flywheel-forge-1.20.1:1.0.5")
+    // Registrate 不是独立 mod（jar 内无 mods.toml），只作为 Create 的 jarjar 库使用。
+    // 若这里用 fg.deobf，产物文件名会从 Registrate-MC1.20-1.3.3.jar 变成 *_mapped_official*，
+    // JarJar 就匹配不上 Create 内嵌的同名 jar，导致模块重复 + 同时加载 SRG 版（NoSuchFieldError: f_256750_）。
+    // 因此 libs/Registrate-MC1.20-1.3.3.jar 已被替换成 fg.deobf 产出的 official 命名版本，并保持原文件名直接加载。
+    implementation "local:Registrate:MC1.20-1.3.3"
+    // areca-delight (tese_leshi) 依赖：Farmer's Delight（dev 已将 jar 内 toml 的 [1.4.2,) 放宽到 [1.3.0,)）
+    runtimeOnly fg.deobf("local:farmers-delight:1.20.1-1.3.4")
+    // 联动：JEI / Curios / KubeJS（Re-Avaritia 核心硬依赖 Curios；KubeJS+JEI 为联动要点）
+    runtimeOnly fg.deobf("local:jei-1.20.1-forge:15.21.0.148")
+    runtimeOnly fg.deobf("local:curios-forge:5.14.1+1.20.1")
+    runtimeOnly fg.deobf("local:kubejs-forge:2001.6.5-build.20")
+    runtimeOnly fg.deobf("local:rhino-forge:2001.2.2-build.6")
+    // KubeJS 硬依赖 Architectury（Re-Avaritia 联动所需）
+    runtimeOnly fg.deobf("local:architectury:9.2.14-forge")
+    // 本地联动 mod（作者稳定版 / 本地构建）
+    runtimeOnly fg.deobf("local:areca-delight:1.1.7")
+    runtimeOnly fg.deobf("local:create-meowchanics-2.3.0-forge:1.20.1")
+    runtimeOnly fg.deobf("local:Re-Avaritia-forge-1.20.1:1.4.2-release")
+
+    // ===== 任务系统：FTB Quests + 前置（FTB Library / FTB Teams）=====
+    // 官方 maven: https://maven.ftb.dev/releases/dev/ftb/mods/...
+    runtimeOnly fg.deobf("local:ftb-library-forge:2001.2.13")
+    runtimeOnly fg.deobf("local:ftb-teams-forge:2001.3.2")
+    runtimeOnly fg.deobf("local:ftb-quests-forge:2001.4.22")
+
+    // ===== 拔刀剑：重锋（SlashBlade: Resharped）=====
+    // implementation：后续「刀锻冶匠魂」移植要直接编译依赖它的 API（ItemSlashBlade / BladeRegistry 等）
+    implementation fg.deobf("local:SlashBladeResharped-1.20.1:1.9.65")
+    // 匠魂西洋剑（兼容性验证，同作者出品）
+    runtimeOnly fg.deobf("local:tinker_rapier:1.0.1-1.20.1")
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            forge_version          : forge_version,
+            forge_version_range    : forge_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            mod_authors            : mod_authors,
+            mod_description        : mod_description
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties + [project: project]
+    }
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+                'Specification-Title'     : mod_id,
+                'Specification-Vendor'    : mod_authors,
+                'Specification-Version'   : '1',
+                'Implementation-Title'    : project.name,
+                'Implementation-Version'  : project.jar.archiveVersion,
+                'Implementation-Vendor'   : mod_authors,
+                'Implementation-Timestamp' : new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+    finalizedBy 'reobfJar'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}

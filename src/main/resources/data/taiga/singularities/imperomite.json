@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.imperomite",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:imperomite_ingot"
+  },
+  "name": "taiga:imperomite",
+  "overlayColor": "abdeba",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "68c382"
+}

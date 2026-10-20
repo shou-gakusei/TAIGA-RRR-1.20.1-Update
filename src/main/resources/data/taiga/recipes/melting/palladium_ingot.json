@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "taiga:palladium_ingot"
+  },
+  "result": {
+    "fluid": "taiga:molten_palladium",
+    "amount": 144
+  },
+  "temperature": 300,
+  "time": 60
+}

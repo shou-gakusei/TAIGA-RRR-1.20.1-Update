@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.violium",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:violium_ingot"
+  },
+  "name": "taiga:violium",
+  "overlayColor": "aeabbb",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "6d6784"
+}

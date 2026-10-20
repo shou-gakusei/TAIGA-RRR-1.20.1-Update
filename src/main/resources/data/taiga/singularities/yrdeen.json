@@ -1,0 +1,14 @@
+{
+  "conditions": [],
+  "count": 1000,
+  "displayName": "singularity.taiga.yrdeen",
+  "enabled": true,
+  "ingredient": {
+    "item": "taiga:yrdeen_ingot"
+  },
+  "name": "taiga:yrdeen",
+  "overlayColor": "a98897",
+  "recipeEnabled": true,
+  "timeCost": 240,
+  "underlayColor": "632742"
+}

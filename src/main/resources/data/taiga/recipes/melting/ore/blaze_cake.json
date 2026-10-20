@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create:blaze_cake"
+  },
+  "result": {
+    "fluid": "taiga:blaze_halwa",
+    "amount": 250
+  },
+  "temperature": 300,
+  "time": 60
+}
