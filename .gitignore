@@ -22,3 +22,5 @@ libs/
 
 # 旧的运行/构建日志
 *-log.txt
+build-log*.txt
+_patch_refmap.py
