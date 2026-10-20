@@ -12,7 +12,7 @@
 
 ## 简介 / Introduction
 
-TAIGARRR 最初是一套基于 KubeJS 的匠魂材料扩展（基于TAIGA2），本仓库将其机械改写为独立 Forge 模组：
+TAIGARRR 最初是一套基于 KubeJS 的匠魂材料扩展（基于TAIGARR），本仓库将其机械改写为独立 Forge 模组：
 以 `tools/gen_content.py` 解析原始 KubeJS 配置，自动生成数据包（资源/配方/标签/世界生成/联动），
 并配合 Java 侧代码完成材料注册。
 
