@@ -1,6 +1,6 @@
-# TAIGA（1.20.1 移植版）
+# TAIGARRR（1.20.1 移植版）
 
-> **TAIGA** 是一个 **Tinkers' Construct（匠魂）** 的扩展模组，本仓库为其 Minecraft `1.20.1`（Forge）的移植与重构版本。
+> **TAIGARRR** 是一个 **Tinkers' Construct（匠魂）** 的扩展模组，本仓库为其 Minecraft `1.20.1`（Forge）的移植与重构版本。
 > 在游戏中新增 **37 种匠魂材料**，并为它们补齐矿石、存储块、锭/粒/粉、熔融流体、材料特性（Traits）与合金配方。
 
 - Mod ID：`taiga`
@@ -12,7 +12,7 @@
 
 ## 简介 / Introduction
 
-TAIGA 最初是一套基于 KubeJS 的匠魂材料扩展，本仓库将其机械改写为独立 Forge 模组：
+TAIGARRR 最初是一套基于 KubeJS 的匠魂材料扩展，本仓库将其机械改写为独立 Forge 模组：
 以 `tools/gen_content.py` 解析原始 KubeJS 配置，自动生成数据包（资源/配方/标签/世界生成/联动），
 并配合 Java 侧代码完成材料注册。
 
@@ -33,7 +33,7 @@ molten fluids, traits and alloy recipes, plus optional integration with several 
   - **Curios / JEI / KubeJS + Rhino**：联动配方与展示。
   - **Re-Avaritia**（`avaritia`）：奇点（singularity）支持。
   - **FTB Quests / FTB Library / FTB Teams**：任务数据生成（`tools/gen_ftbq.py`）。
-  - **SlashBlade: Resharped**（`SlashBladeResharped`）：「刀锻冶匠魂」方向的直接 API 依赖；**tinker_rapier** 兼容性验证。
+  - **SlashBlade: Resharped**（`SlashBladeResharped`）：「刀锻冶匠魂」方向的直接 API 依赖；**tinker_rapier** 兼容性验证。（还没搓好）
   - **moreharvestinglevel**：材料挖掘等级 5/6/7 依赖其注册（**必需**依赖）。
 
 ## 依赖 / Dependencies
